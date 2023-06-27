@@ -1,0 +1,1 @@
+list_lang = ["french", "english", "portuguese", "dutch", "somalian"]

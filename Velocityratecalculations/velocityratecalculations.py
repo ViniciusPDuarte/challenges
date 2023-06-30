@@ -27,12 +27,14 @@ if idioma == 1:
         t_cal = initial_time - final_time
         one_vc = p_cal / t_cal
         print(" (ip - fp) / (it - ft) == velocidade media de {}m/s.".format(one_vc))
+        sleep(3)
 
     if option == 2:
         initial_velocity = float(input("qual e a velocidade inicial? "))
         final_velocity = float(input("qual e a velocidade final? "))
         two_vc = (initial_velocity + final_velocity) / 2
         print(" iv + fv / 2 == velocidade media de {}m/s.".format(two_vc))
+        sleep(3)
 
     if option == 3:
         circle_radius = float(input("qual e o radio do circulo? "))
@@ -40,6 +42,7 @@ if idioma == 1:
         twopi = (2 * pi) * circle_radius
         three_vc = twopi / time_period
         print(" ((pi x 2) * r == {}) / tempo == velocidade media de {}m/s.".format(twopi, three_vc))
+        sleep(3)
 
     if option == 4:
         initial_velocity = float(input("qual e a velocidade inicial? "))
@@ -48,6 +51,7 @@ if idioma == 1:
         at_cal = acceleration * acceleration_time
         four_vc = at_cal + initial_velocity
         print(" (a * t == {}) == at + iv == velocidade final de {}m/s.".format(at_cal, four_vc))
+        sleep(3)
 
 if idioma == 2:
     print("lets calculate a cars velocity.")
@@ -71,12 +75,14 @@ if idioma == 2:
         t_cal = initial_time - final_time
         one_vc = p_cal / t_cal
         print(" (ip - fp) / (it - ft) == average velocity of {}m/s.".format(one_vc))
+        sleep(3)
 
     if option == 2:
         initial_velocity = float(input("whats the cars initial velocity? "))
         final_velocity = float(input("whats the cars final velocity? "))
         two_vc = (initial_velocity + final_velocity) / 2
         print(" iv + fv / 2 == average velocity of {}m/s.".format(two_vc))
+        sleep(3)
 
     if option == 3:
         circle_radius = float(input("whats the circle radius? "))
@@ -84,6 +90,7 @@ if idioma == 2:
         twopi = (2 * pi) * circle_radius
         three_vc = twopi / time_period
         print(" ((pi x 2) * r == {}) / time == average velocity of {}m/s.".format(twopi, three_vc))
+        sleep(3)
 
     if option == 4:
         initial_velocity = float(input("whats the cars initial velocity? "))
@@ -92,3 +99,4 @@ if idioma == 2:
         at_cal = acceleration * acceleration_time
         four_vc = at_cal + initial_velocity
         print(" (a * t == {}) == at + iv == final velocity of {}m/s.".format(at_cal, four_vc))
+        sleep(3)
